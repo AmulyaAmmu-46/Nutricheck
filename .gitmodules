@@ -1,0 +1,3 @@
+[submodule "lab-infra-setup-devsecops"]
+	path = lab-infra-setup-devsecops
+	url = https://github.com/open-devsecops/lab-infra-setup-devsecops.git

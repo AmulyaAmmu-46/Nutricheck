@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+build/
+dist/
+coverage/
+
+# Temporary files
+temp/
+tmp/
+.cache/
+*.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database/local data
+*.db
+*.sqlite
+mongodb-data/
+
+docker-data/
+
+# Docker
+*.tar
+
+# Generated docs or local artifacts
+local-settings/
+
+# Optional: keep model artifacts out unless intentionally tracked
+*.pkl
+*.joblib
+*.h5
+*.onnx
+

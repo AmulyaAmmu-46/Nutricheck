@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nutricheck-config
+  namespace: default
+data:
+  NODE_ENV: production
+  PORT: "5001"
+  MONGODB_URI: mongodb://mongodb:27017/nutricheck
+  FRONTEND_URL: http://localhost:3000
+  JWT_EXPIRE: 7d
